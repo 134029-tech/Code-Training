@@ -17,7 +17,7 @@ type Pages = {
 };
 
 type RouteFiles = {
-  "root.tsx": {
+  "root.jsx": {
     id: "root";
     page: "/";
   };
@@ -28,6 +28,6 @@ type RouteFiles = {
 };
 
 type RouteModules = {
-  "root": typeof import("./app/root.tsx");
+  "root": typeof import("./app/root.jsx");
   "routes/home": typeof import("./app/routes/home.tsx");
 };
